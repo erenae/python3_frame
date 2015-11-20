@@ -8,7 +8,7 @@ from datetime import datetime
 from aiohttp import web
 
 def index(request):
-    return web.Response(body=b'<h1>これは新しく作ったサイト</h1>')
+    return web.Response(body=b'<h1>A new web site</h1>')
 
 @asyncio.coroutine
 def init(loop):
